@@ -1,6 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Reactive Resume Docs</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reactive Resume Docs</title>
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #f5f6fa;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 760px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 2rem 2.5rem;
+    }
+    h1 {
+      color: #2d3436;
+      font-size: 2.4rem;
+      margin-top: 0;
+    }
+    .desc {
+      color: #636e72;
+      font-size: 1.15rem;
+      margin-bottom: 2rem;
+    }
+    a.button {
+      display: inline-block;
+      background: #0984e3;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.2s;
+      margin-top: 1rem;
+    }
+    a.button:hover {
+      background: #74b9ff;
+      color: #2d3436;
+    }
+    .md-section {
+      margin-top: 2.5rem;
+      padding: 1.2rem 1.5rem;
+      background: #f1f2f6;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #222;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1rem;
+      }
+    }
+  </style>
 </head>
+<body>
+  <div class="container">
+    <h1>📄 Reactive Resume Docs</h1>
+    <div class="desc">
+      A free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume.<br>
+      <strong>Explore the documentation below or read the project overview.</strong>
+    </div>
+    <a class="button" href="README.md">View README.md</a>
+    <div class="md-section">
+      <h2>About This Site</h2>
+      <p>
+        This documentation site hosts Markdown files for easy browsing. Select a document to begin reading, or <a href="README.md">start with the README</a>.<br>
+        To view other documentation, simply replace <code>README.md</code> in the URL with the desired markdown file's name.
+      </p>
+    </div>
+    <div class="md-section">
+      <h3>Project Links</h3>
+      <ul>
+        <li><a href="https://github.com/lazy-media/Reactive-Resume-Docs" target="_blank">GitHub Repository</a></li>
+        <li><a href="README.md">Documentation Home (README.md)</a></li>
+      </ul>
+    </div>
+  </div>
+</body>
 </html>
