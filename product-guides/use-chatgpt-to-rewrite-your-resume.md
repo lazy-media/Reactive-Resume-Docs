@@ -12,7 +12,6 @@ Now, let's go to ChatGPT and write a prompt that accepts a JSON as the input and
 
 You could use this prompt as a reference:
 
-{% code overflow="wrap" %}
 ```
 You are a professional resume writer experienced in technical domains pertaining to Web Development. You are also aware of the JSON file format and must remember that the keys of the JSON file should not be changed, only the values inside of them.
 
@@ -23,7 +22,6 @@ Please rewrite the content of this JSON:
 [paste JSON content here]
 """
 ```
-{% endcode %}
 
 In the above prompt, simply replace the `[paste JSON content here]` placeholder with the contents from your exported JSON file.
 
