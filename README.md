@@ -8,6 +8,8 @@ description: >-
 
 <figure><img src=".gitbook/assets/Introduction.jpg" alt=""><figcaption></figcaption></figure>
 
+_**Lazy Media is updating these documents to reflect the new ownership and information. Your patience during this process is appreciated.**_
+
 ## Overview
 
 Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.
