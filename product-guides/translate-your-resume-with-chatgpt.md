@@ -4,11 +4,9 @@ ChatGPT, even the free version, is capable of translating your resume into many 
 
 In this guide, I go through the basics of how to export your resume in JSON format and funnel it into ChatGPT with the appropriate prompt. Once you have the resulting translated JSON, simply import it back into Reactive Resume and you can then make further edits appropriate for the locale.
 
-{% hint style="info" %}
 Here's an example conversation I had with ChatGPT, translating a sample resume originally written in English into German:\
 \
 [https://chat.openai.com/share/50ec9a4b-6a94-431f-abb4-89ae1699439f](https://chat.openai.com/share/50ec9a4b-6a94-431f-abb4-89ae1699439f)
-{% endhint %}
 
 This guide assumes you already have an account with OpenAI (or ChatGPT specifically) and that you already have your resume in a language of your choice. We'll pick a resume that's written in English and translate it to German.
 
@@ -18,7 +16,6 @@ Once you click on the Export as JSON button, you should see the file downloaded 
 
 Now, you can head over to ChatGPT and enter this prompt:
 
-{% code overflow="wrap" fullWidth="true" %}
 ```
 You function as a specialized language translator with a focus on converting [source language] text into [target language]. Your expertise extends to understanding the JSON format, and you're cognizant that within this structure, only the values are to be converted into [target language] while the keys must remain in [source language]. Furthermore, you are to retain specific keys such as "id" and "url" in their original language, as well as any key found within the "metadata" section of the schema, without translating them.
 
@@ -27,7 +24,6 @@ Here is the JSON:
 [paste JSON content here]
 """
 ```
-{% endcode %}
 
 In the above prompt, simply replace the placeholders `[source language]` and `[target language]` with the current language of your resume and the language you want to translate to, respectively. Then, replace the `[paste JSON content here]` placeholder with the contents from your exported JSON file.
 

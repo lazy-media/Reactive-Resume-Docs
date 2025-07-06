@@ -16,9 +16,7 @@ Crowdin also provides you with machine translations provided by Google Translate
 
 To save the translations for each phrase, all you need to do is type in the translated phrase and click on Save (or you can also press `Ctrl` + `Enter`) and it would automatically move you to the next phrase to be translated.
 
-{% hint style="success" %}
 Contributing to the translations on Crowdin also gets you a coveted spot on the home page's wall of fame.
-{% endhint %}
 
 <div data-full-width="true">
 

@@ -1,8 +1,6 @@
 # 🐕🦺 Terms of Service
 
-{% hint style="info" %}
 Effective Date: 21st November 2023
-{% endhint %}
 
 These Terms of Service ("Terms") govern your use of the Reactive Resume app ("Reactive Resume" or "the Service"), provided by Lazy Media. By creating an account and using Reactive Resume, you agree to comply with and be bound by these Terms.
 

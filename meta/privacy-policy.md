@@ -1,8 +1,6 @@
 # 🔏 Privacy Policy
 
-{% hint style="info" %}
 Effective Date: 21st November 2023
-{% endhint %}
 
 **1. Introduction**
 

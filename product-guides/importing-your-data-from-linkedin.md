@@ -10,9 +10,7 @@ Here, select the option that says “_Download larger data archive, including co
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 8.47.27 PM.png" alt=""><figcaption></figcaption></figure>
 
-{% hint style="info" %}
 While Reactive Resume doesn't require all of this data, LinkedIn only exports your work experience and education data if you select this option, and skips it if you choose the other one.
-{% endhint %}
 
 This process usually takes a little over 15 minutes since you don't have to wait for the entire data export, only the first part that LinkedIn provides. Once you receive an email notification from LinkedIn stating that the first part of your data archive is ready, simply click on the link in the email and download the ZIP archive.
 
@@ -20,7 +18,6 @@ This process usually takes a little over 15 minutes since you don't have to wait
 
 You are free to inspect the contents of this ZIP archive to ensure there are no secrets or personal information (other than what you’ve provided LinkedIn, of course) in the files. Reactive Resume will parse these files accordingly. Any other files will simply be ignored.
 
-{% code lineNumbers="true" fullWidth="false" %}
 ```
 Profile.csv
 Email Addresses.csv
@@ -31,7 +28,6 @@ Positions.csv
 Projects.csv
 Skills.csv
 ```
-{% endcode %}
 
 Now that you have downloaded the ZIP archive, go to the [Resumes Dashboard page](https://rxresume.org/dashboard/resumes) on Reactive Resume. Click on the "Import an existing resume" card. This will open a modal where you can choose the file type you want to upload. From the drop-down menu, select "LinkedIn Data Export (.zip)" and choose the file you downloaded from LinkedIn, then click on “Validate”.
 

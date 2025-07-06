@@ -4,11 +4,9 @@ In Reactive Resume, users have the option to either keep their resume sections l
 
 This works especially well if you need to include a larger number of social profiles, skills, or interests in a single row. However, it is not limited to any specific section.
 
-{% hint style="info" %}
 Please note that Applicant Tracking Systems (ATS) and resume parsers currently favor single-column resumes with a straightforward one-item-per-row format for optimal performance.
 
 Yet, the landscape is poised for change as Artificial Intelligence evolves. Modern AI models, like GPTs, are now capable of quickly parsing and extracting key information from resumes, regardless of their layout or formatting, making them more versatile and efficient in handling various resume styles.
-{% endhint %}
 
 To adjust the column count for a section in your resume, navigate to the resume builder page and scroll to the section you wish to modify. Here in the example below, we have a resume using the "Bronzor" template showcasing four skills; you might notice they occupy a considerable amount of space.
 

@@ -14,14 +14,10 @@ Once it’s ready, a new tab would open with the link to your resume (or in most
 
 ***
 
-{% hint style="warning" %}
 PDFs are typically a snapshot of your data at the time you exported the resume. However, the downside is that if you update your resume on Reactive Resume, recipients who have already received the PDF would immediately have outdated information.
-{% endhint %}
 
 Reactive Resume solves this problem by hosting your resume for free, if you choose to make it publicly available. You will receive a unique link to your resume that can be shared with anyone, and this page will always display the most up-to-date information. From this page, anyone can download a PDF version of your resume if they wish.
 
 **To know more about making your resume publicly available, check out this guide:**
 
-{% content-ref url="making-your-resume-publicly-available.md" %}
 [making-your-resume-publicly-available.md](making-your-resume-publicly-available.md)
-{% endcontent-ref %}

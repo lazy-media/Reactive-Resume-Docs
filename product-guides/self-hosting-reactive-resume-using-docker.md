@@ -290,11 +290,9 @@ OPENID_SCOPE=openid profile email
 ```
 
 
-{% hint style="info" %}
 Make sure to update all the environment variables.
 
 In this case, there's nothing much to change except on line 63 and 64 where you need to replace the \[your-server-ip] with your actual public Server IP address and to make use of secure passwords for Postgres and Minio.
-{% endhint %}
 
 Now, run the compose project by running the following command:
 
