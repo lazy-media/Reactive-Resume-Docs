@@ -1,3 +1,7 @@
+---
+icon: hand-holding-circle-dollar
+---
+
 # Ways to Support
 
 ### 💖 Support My Work
