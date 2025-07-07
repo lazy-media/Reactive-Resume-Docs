@@ -52,7 +52,7 @@ systemctl enable --now docker
 {% tab title="Install Script" %}
 ### Docker Install Script For Linux Based Systems
 
-> ### Original Creator is \[Open Source is Awesome]\([https://wiki.opensourceisawesome.com/books/installing-docker-ce-and-docker-compose/page/install-docker-ce-and-docker-compose](https://wiki.opensourceisawesome.com/books/installing-docker-ce-and-docker-compose/page/install-docker-ce-and-docker-compose))
+> ### Original Creator is [Open Source is Awesome](https://wiki.opensourceisawesome.com/books/installing-docker-ce-and-docker-compose/page/install-docker-ce-and-docker-compose)
 
 ### Create Empty File Docker Install Script
 
