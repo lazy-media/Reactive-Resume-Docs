@@ -24,6 +24,12 @@ I'm going to assume you have already set up your server along with a user accoun
 * [https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11)
 * [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
 
+## Docker Install Methods
+
+{% include "../.gitbook/includes/docker-installation-methods.md" %}
+
+### Docker Compose & ENV Files
+
 Copy the following code to the home folder (or any specific project folder) on your machine, to a file named `compose.yml`or `docker-compose.yml`. If you choose to name the file anything else, you would need to run the docker compose command along with the `-f [file path]` flag.
 
 ```yaml
@@ -295,7 +301,7 @@ Make sure to update all the environment variables.
 
 In this case, there's nothing much to change except for the following values:
 
-```
+```yaml
 POSTGRES_PASSWORD=postgres
 MINIO_ROOT_PASSWORD=minioadmin
 CHROME_TOKEN=chrome_token
@@ -308,7 +314,7 @@ where you need to replace the values on the right side of the `=` sign. Make sur
 
 Now, run the compose project by running the following command:
 
-```
+```bash
 docker compose up -d
 ```
 
@@ -316,98 +322,16 @@ This should take about a few minutes depending on your server's network connecti
 
 Once it is finished, run the logs command to check the logs to see if everything is running correctly:
 
-```
+```bash
 docker compose logs -f
 ```
 
-If you see the following output, it means everything is working as expected:
+If you see the following output, it means everything is working as expected
 
-<pre data-line-numbers data-full-width="true"><code>app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [NestFactory] Starting Nest application...
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] AppModule dependencies initialized +44ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ConfigModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] MailerModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] RavenModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] PassportModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] AuthModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] HttpModule dependencies initialized +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] JwtModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ConfigHostModule dependencies initialized +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] DatabaseModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] TerminusModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ServeStaticModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ServeStaticModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ConfigModule dependencies initialized +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM    WARN [MailModule] Since `SMTP_URL` is not set, emails would be logged to the console instead. This is not recommended for production environments.
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] PrismaModule dependencies initialized +16ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] MailerCoreModule dependencies initialized +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] MinioModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] FeatureModule dependencies initialized +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] TranslationModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ContributorsModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] MailModule dependencies initialized +2ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] PrinterModule dependencies initialized +3ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] StorageModule dependencies initialized +8ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] HealthModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] UserModule dependencies initialized +2ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] ResumeModule dependencies initialized +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:53 PM     LOG [InstanceLoader] AuthModule dependencies initialized +1ms
-app-1       | Warning: connect.session() MemoryStore is not
-app-1       | designed for a production environment, as it will leak
-app-1       | memory, and will not scale past a single process.
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] HealthController {/api/health}: +49ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/health, GET} route +4ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/health/environment, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] StorageController {/api/storage}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/storage/image, PUT} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] AuthController {/api/auth}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/register, POST} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/login, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/providers, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/github, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/github/callback, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/google, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/google/callback, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/openid, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/openid/callback, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/refresh, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/password, PATCH} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/logout, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/2fa/setup, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/2fa/enable, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/2fa/disable, POST} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/2fa/verify, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/2fa/backup, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/forgot-password, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/reset-password, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/verify-email, POST} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/auth/verify-email/resend, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] UserController {/api/user}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/user/me, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/user/me, PATCH} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/user/me, DELETE} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] ResumeController {/api/resume}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/schema, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/import, POST} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/:id, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/:id/statistics, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/public/:username/:slug, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/:id, PATCH} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/:id/lock, PATCH} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/:id, DELETE} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/print/:id, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/resume/print/:id/preview, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] FeatureController {/api/feature}: +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/feature/flags, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] TranslationController {/api/translation}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/translation/languages, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RoutesResolver] ContributorsController {/api/contributors}: +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/contributors/github, GET} route +1ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [RouterExplorer] Mapped {/api/contributors/crowdin, GET} route +0ms
-app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [StorageService] A new storage bucket has been created and the policy has been applied successfully.
-<strong>app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [NestApplication] Nest application successfully started +15ms
-</strong>app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [Bootstrap] 🚀 Server is up and running on port 3000
-</code></pre>
+{% code lineNumbers="true" fullWidth="true" %}
+```sh
+app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [Bootstrap] 🚀 Server is up and running on port 3000
+```
+{% endcode %}
 
 Now, just head over to `http://[your-server-ip]:3000` and you should see Reactive Resume working as expected. You can now create a new account, create a resume and print as PDF immediately.

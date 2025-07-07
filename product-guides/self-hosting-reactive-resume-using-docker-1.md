@@ -24,6 +24,12 @@ I'm going to assume you have already set up your server along with a user accoun
 * [https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11)
 * [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
 
+## Docker Installation Methods
+
+{% include "../.gitbook/includes/docker-installation-methods.md" %}
+
+## Docker Compose & ENV Files
+
 Copy the following code to the home folder (or any specific project folder) on your machine, to a file named `compose.yml`or `docker-compose.yml`. If you choose to name the file anything else, you would need to run the docker compose command along with the `-f [file path]` flag.
 
 **BE SURE TO CHANGE THE ONE ITEM UNDER THE MINIO SECTION WITH YOUR DOMAIN!**
