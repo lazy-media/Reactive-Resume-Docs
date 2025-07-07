@@ -1,10 +1,11 @@
 ---
 description: >-
   This should be an in-depth guide on how to set up Reactive Resume on your
-  Virtual Private Server running a run-off-the-mill Linux distribution.
+  Virtual Private Server running a run-of-the-mill Linux distribution.
+icon: docker
 ---
 
-# 🖥️ Self-Hosting Reactive Resume using Docker
+# Self-Hosting Reactive Resume using Docker - SIMPLE
 
 I'll be setting the application today using a Hetzner Cloud server, but you could use any VPS. A good place to find a decent server can be [https://lowendbox.com/](https://lowendbox.com/). They are a great resource to find deals and dirt cheap offers on VPSes, especially active during Black Friday.
 
@@ -151,6 +152,7 @@ volumes:
 ```
 
 Use this .env example file. Replacing the values with the correct ones.
+
 ```yaml
 ###################################
 ##### RESTART POLICY SETTINGS #####
@@ -289,10 +291,20 @@ OPENID_CLIENT_SECRET=
 OPENID_SCOPE=openid profile email
 ```
 
-
 Make sure to update all the environment variables.
 
-In this case, there's nothing much to change except on line 63 and 64 where you need to replace the \[your-server-ip] with your actual public Server IP address and to make use of secure passwords for Postgres and Minio.
+In this case, there's nothing much to change except for the following values:
+
+```
+POSTGRES_PASSWORD=postgres
+MINIO_ROOT_PASSWORD=minioadmin
+CHROME_TOKEN=chrome_token
+PUBLIC_URL=http://localhost:3000
+ACCESS_TOKEN_SECRET=access_token_secret
+REFRESH_TOKEN_SECRET=refresh_token_secret
+```
+
+where you need to replace the values on the right side of the `=` sign. Make sure you generate or use strong random passwords or something similar for the Tokens, Postgres and Minio.
 
 Now, run the compose project by running the following command:
 

@@ -1,4 +1,4 @@
-# 🐕🦺 Terms of Service
+# 🐕‍🦺 Terms of Service
 
 Effective Date: 21st November 2023
 
@@ -55,8 +55,8 @@ If you have any questions, concerns, or requests regarding these Terms of Servic
 Thank you for using Reactive Resume!
 
 ```
-Lazy Media (legal name, Raja Rajan Ashokan)
+Lazy Media
 c/o Reactive Resume
-Berlin, Germany
+Washington State, United States
 info@lazymedia.media
 ```
