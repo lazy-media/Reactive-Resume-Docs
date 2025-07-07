@@ -335,3 +335,5 @@ app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [Bootstrap] 🚀 Serv
 {% endcode %}
 
 Now, just head over to `http://[your-server-ip]:3000` and you should see Reactive Resume working as expected. You can now create a new account, create a resume and print as PDF immediately.
+
+You can also use the FREE and publicly available Reactive Resume at [https://rxresume.org](https://rxresume.org/)
