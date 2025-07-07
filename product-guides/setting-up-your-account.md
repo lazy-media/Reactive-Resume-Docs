@@ -4,11 +4,7 @@ Creating an account on Reactive Resume is straightforward and offers the advanta
 
 Firstly, head over to [https://rxresume.org](https://rxresume.org) and click on the "Get Started" button.
 
-<div align="center">
-
-<figure><img src="../.gitbook/assets/spaces_69oKXphCNKiJeU3CSIKT_uploads_jqLDpmCrXijviAGaNtm2_Screenshot 2023-11-18 at 9.webp" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../.gitbook/assets/Reactive-Resume-Landing-Page.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 You can choose to sign in using your **GitHub** or **Google** account or register using your email address.
 

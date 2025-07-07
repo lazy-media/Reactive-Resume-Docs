@@ -1,4 +1,4 @@
-# 👩💻 Exporting your resume as PDF
+# 👩‍💻 Exporting your resume as PDF
 
 PDFs are the preferred format for transferring documents on the internet. They offer the convenience of ensuring that what you see on your device is exactly what others see on their computers or mobile phones. However, one downside of PDFs is that they are not easily parsed, making it more challenging to export a resume as a PDF and import it back without any changes.
 
@@ -8,7 +8,7 @@ Exporting your resume in Reactive Resume is extremely simple and, most important
 
 To export your resume as a PDF, head on over to the resume builder page and scroll down to the “Export” section in the right-hand side panel. Click on the button that says “Export as PDF” and it should take no more than 10-15 seconds to generate your PDF.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 7.46.37 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Export-PDF.png" alt=""><figcaption></figcaption></figure>
 
 Once it’s ready, a new tab would open with the link to your resume (or in most cases, it should already be downloaded onto your device). Now, you can share the PDF with anyone who needs it.
 

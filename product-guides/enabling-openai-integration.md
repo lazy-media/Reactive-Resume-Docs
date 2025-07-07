@@ -20,15 +20,15 @@ OpenAI might ask you for your credit card information depending on where you are
 
 Head over to the [OpenAI Platform](https://platform.openai.com/apps) page and click on the API section.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 2.18.46 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/OpenAI.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Now, head over to the [API keys page](https://platform.openai.com/api-keys) on the left navigation where you can manage all your API keys and click on the link that says "Create a new secret key". You can call the key anything you want, but it helps to name it after the application you are going to use the specific key for.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 2.22.26 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/OpenAI-API-Key-Name.png" alt="" width="563"><figcaption></figcaption></figure>
 
 Once you click on "Create secret key", you should be presented with an API key that you can now use in Reactive Resume. The key would only be visible to you once, so make sure you store it somewhere safe at this screen.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 2.23.46 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/OpenAI-API-Key.png" alt="" width="563"><figcaption></figcaption></figure>
 
 The secret key in the screenshot would be disabled by the time you read this, so there's no point in trying to use this one. It's pretty straightforward to create one on your own and it shouldn't cost you unless you go over the Free Credits Limit.
 
@@ -40,10 +40,10 @@ Once you have the secret key from OpenAI, head over to the settings page in Reac
 
 Here, you can enter the API key provided, and click on "Store Locally".
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 2.27.38 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Reactive-Resume-OpenAI-Integration.png" alt=""><figcaption></figcaption></figure>
 
 Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services.
 
 Now, you should be able to see some new sections pop up in the Resume Builder screen where you can take advantage of all the one-click AI actions.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 2.53.01 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/OpenAI-Use.png" alt=""><figcaption></figcaption></figure>

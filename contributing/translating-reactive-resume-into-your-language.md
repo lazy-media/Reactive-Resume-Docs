@@ -4,13 +4,13 @@ If you speak a language other than English, please consider helping to translate
 
 By making the app available in multiple languages, more people in non-English dominant regions can use the app, create their own professional resumes, and feel included.
 
-To translate Reactive Resume, simply create an account on Crowdin or head on over to [https://translate.rxresume.org/](https://translate.rxresume.org/) which redirects you to the Crowdin project page. Here, you can see a list of languages that are available for translations.
+To translate Reactive Resume, simply create an account on Crowdin or head on over to [https://crowdin.com/project/lazymedia-reactive-resume](https://crowdin.com/project/lazymedia-reactive-resume) which redirects you to the Crowdin project page. Here, you can see a list of languages that are available for translations.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 10.33.05 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Crowdin-Profile-Page.png" alt=""><figcaption></figcaption></figure>
 
 To start working on a specific language, simply click on the flag/locale associated with the language and you should see a button titled “Translate All”. Click on that button, and you would be redirected to the editor where you can begin translating each phrase, one-by-one.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 10.37.45 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Crowdin-Translations.png" alt=""><figcaption></figcaption></figure>
 
 Crowdin also provides you with machine translations provided by Google Translate or DeepL, which you can use as a reference point and tweak the result to something more suitable.
 
@@ -18,9 +18,4 @@ To save the translations for each phrase, all you need to do is type in the tran
 
 Contributing to the translations on Crowdin also gets you a coveted spot on the home page's wall of fame.
 
-<div data-full-width="true">
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 10.42.27 PM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
+<div data-full-width="true"><figure><img src="../.gitbook/assets/Contributors.png" alt=""><figcaption></figcaption></figure></div>

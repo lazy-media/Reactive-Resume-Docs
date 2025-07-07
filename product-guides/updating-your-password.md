@@ -4,4 +4,4 @@ To update your password, simply sign in to the app and head over to the [setting
 
 To change your password, simply enter the new password twice and click on the "Change Password" button.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-19 at 1.49.51 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Change-Password.png" alt="" width="563"><figcaption></figcaption></figure>

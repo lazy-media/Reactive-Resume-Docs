@@ -2,4 +2,6 @@
 
 ## Overview
 
-Got 2 minutes? Watch this video of me explaining what Reactive Resume can do!
+Have some time? Take a read through this documentation to see if anything interests you.\
+\
+&#xNAN;_&#x57;ill update this at a later time. Maybe even with a video of Reactive Resume..._

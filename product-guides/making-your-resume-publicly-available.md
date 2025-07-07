@@ -12,7 +12,7 @@ To circumvent this problem, you can make your resume publicly available through 
 
 One of the main concerns that arises when sending out resumes is whether companies actually review them immediately after they are sent. In the past, there have been various methods to discreetly track this information. One example is by adding a small, invisible pixel to your resume that would notify the sender when the resume is opened. However, many PDF readers have become smarter in detecting and blocking images or scripts from running on the recipient’s computer.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 8.11.17 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Public-Sharing-Stats.png" alt=""><figcaption></figcaption></figure>
 
 When you share your publicly visible resumes link to others, you can track how many people have seen it, or how many people have downloaded the resume from the page.
 
@@ -32,6 +32,6 @@ A public resume gets its own URL and its own place on the internet forever. When
 
 Head on over to the resume builder screen of the resume you want to make public. Scroll down to the "Sharing" section in the right-hand side panel and toggle the switch that says "Public", and that’s it!
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 8.21.47 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Public-Sharing.png" alt="" width="563"><figcaption></figcaption></figure>
 
 You can now copy a link to your resume that can be shared with others. If you think the link is too long, use any link shortening service (like [bit.ly](http://bit.ly) or [kutt.it](http://kutt.it)) to shorten your link and personalise it with a unique URL.

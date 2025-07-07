@@ -29,7 +29,7 @@ In the above prompt, simply replace the placeholders `[source language]` and `[t
 
 Now, hit **Enter** and watch the magic unfold! ✨
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 7.53.32 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/OpenAI-ChatGPT-Response-Example.png" alt=""><figcaption></figcaption></figure>
 
 Once ChatGPT has finished it's response and you have the completed JSON output, copy it over and create a new file on your device with these contents. It can be called anything, but make sure it has the file extension `.json`.
 
@@ -37,10 +37,10 @@ Now, you can head on over back to Reactive Resume and to the Resumes Dashboard p
 
 Select “Reactive Resume" from the drop-down menu and select the file that you just created. Click on validate to ensure that the format is correct and ChatGPT has not messed up the underlying schema of the file.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 7.54.31 PM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Import-Reactive-Resume.png" alt=""><figcaption></figcaption></figure>
 
 If everything's green, you can now import the resume and continue working on it within the app, making further edits that are specific to the region you are applying to. For example, it's uncommon for resumes in Germany to have a photo in them, so we can simply remove the photo by clicking on the picture.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-11-20 at 7.55.24 PM.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Bronzor-Resume.png" alt="" width="563"><figcaption></figcaption></figure>
 
 And that's how you can translate your resume into any language you want and maximize your chances of getting through to the career path of your dreams!
