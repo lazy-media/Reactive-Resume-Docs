@@ -47,7 +47,9 @@ Here, you can enter the API key provided, and click on "Store Locally".
 
 You will also need to fill in the Base URL with the Open WebUI Instance you are using. As of right now, this only seems to work over HTTPS connections, not HTTP connections, so a FQDN is recommended.
 
-Fill in the model with an available model on your local AI. It is recommended to enter the model you want to use as something like `llama3.2:latest`  or whatever model you want to use.
+Fill in the model with an available model on your local AI. It is recommended to enter the model you want to use as something like `llama3.2:latest`  or whatever model you want to use. If you want to set your `Max Tokens`, feel free to, otherwise leave it as is with `1024` .&#x20;
+
+If you are satisfied with your settings, click on `Save Locally`.
 
 <figure><img src="../.gitbook/assets/Reactive-Resume-OpenAI-Integration.png" alt=""><figcaption></figcaption></figure>
 
