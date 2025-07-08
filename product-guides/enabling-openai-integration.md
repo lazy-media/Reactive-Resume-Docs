@@ -40,6 +40,8 @@ Once you have the secret key from OpenAI, head over to the settings page in Reac
 
 Here, you can enter the API key provided, and click on "Store Locally".
 
+_There is no need to fill in the other information other than the API Key for OpenAI / ChatGPT. The App defaults to this. Only fill in the rest as the picture below if you are using OpenWebUI / Ollama._
+
 <figure><img src="../.gitbook/assets/Reactive-Resume-OpenAI-Integration.png" alt=""><figcaption></figcaption></figure>
 
 Your API key is securely stored in the browser's local storage and is only utilized when making requests to OpenAI via their official SDK. Rest assured that your key is not transmitted to any external server except when interacting with OpenAI's services.

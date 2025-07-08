@@ -27,17 +27,21 @@
 * [🔑 Updating your password](product-guides/updating-your-password.md)
 * [🛂 Setting up two-factor authentication](product-guides/setting-up-two-factor-authentication.md)
 * [🧠 Enabling OpenAI Integration](product-guides/enabling-openai-integration.md)
+* [🧠 Enabling OpenWebUI / Ollama Integration](product-guides/enabling-openwebui-integration.md)
 * [🇦🇮 Translate your resume with ChatGPT](product-guides/translate-your-resume-with-chatgpt.md)
+* [🧠 Use ChatGPT to rewrite your resume](product-guides/use-chatgpt-to-rewrite-your-resume.md)
 * [👩‍💻 Exporting your resume as JSON](product-guides/exporting-your-resume-as-json.md)
 * [👩‍💻 Exporting your resume as PDF](product-guides/exporting-your-resume-as-pdf.md)
 * [📢 Making your resume publicly available](product-guides/making-your-resume-publicly-available.md)
 * [🖇️ Importing your data from LinkedIn](product-guides/importing-your-data-from-linkedin.md)
 * [📃 Creating a Multi-Page Resume](product-guides/creating-a-multi-page-resume.md)
-* [🧠 Use ChatGPT to rewrite your resume](product-guides/use-chatgpt-to-rewrite-your-resume.md)
 * [🔄 Change the number of columns for a section](product-guides/change-the-number-of-columns-for-a-section.md)
 * [Custom CSS Styling in Reactive Resume](product-guides/custom-css-styling-in-reactive-resume.md)
-* [Self-Hosting Reactive Resume using Docker - SIMPLE](product-guides/self-hosting-reactive-resume-using-docker.md)
-* [Self-Hosting Reactive Resume using Docker - NGINX](product-guides/self-hosting-reactive-resume-using-docker-1.md)
+
+## Self Hosting Guides
+
+* [Self-Hosting Reactive Resume using Docker - SIMPLE](self-hosting-guides/self-hosting-reactive-resume-using-docker-simple.md)
+* [Self-Hosting Reactive Resume using Docker - NGINX](self-hosting-guides/self-hosting-reactive-resume-using-docker-nginx.md)
 
 ## Meta
 
