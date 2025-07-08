@@ -2,7 +2,7 @@
 icon: file-code
 ---
 
-# Custom CSS Styling in Reactive Resume
+# Custom CSS Styling
 
 _<mark style="color:red;">**Please be aware, that this is a rough example. This particular page was made using AI (GitHub CoPilot). This information may not be entirely accurate.**</mark>_
 
@@ -12,19 +12,19 @@ Reactive Resume allows you to personalize your resume even further through custo
 
 ### Table of Contents
 
-* [What Is Custom CSS in Reactive Resume?](custom-css-styling-in-reactive-resume.md#what-is-custom-css-in-reactive-resume)
-* [Where to Find the Custom CSS Editor](custom-css-styling-in-reactive-resume.md#where-to-find-the-custom-css-editor)
-* [How to Enable and Apply Custom CSS](custom-css-styling-in-reactive-resume.md#how-to-enable-and-apply-custom-css)
-* [Writing Your Custom CSS](custom-css-styling-in-reactive-resume.md#writing-your-custom-css)
-  * [Using CSS Variables](custom-css-styling-in-reactive-resume.md#using-css-variables)
-  * [Targeting Elements](custom-css-styling-in-reactive-resume.md#targeting-elements)
-  * [Example: Changing Section Titles](custom-css-styling-in-reactive-resume.md#example-changing-section-titles)
-  * [Example: Dark Mode Adjustments](custom-css-styling-in-reactive-resume.md#example-dark-mode-adjustments)
-* [Tips for Writing Production-Ready CSS](custom-css-styling-in-reactive-resume.md#tips-for-writing-production-ready-css)
-* [Print Optimization](custom-css-styling-in-reactive-resume.md#print-optimization)
-* [Reference: Available CSS Variables](custom-css-styling-in-reactive-resume.md#reference-available-css-variables)
-* [Troubleshooting](custom-css-styling-in-reactive-resume.md#troubleshooting)
-* [Sample Production-Ready Custom CSS](custom-css-styling-in-reactive-resume.md#sample-production-ready-custom-css)
+* [What Is Custom CSS in Reactive Resume?](custom-css-styling.md#what-is-custom-css-in-reactive-resume)
+* [Where to Find the Custom CSS Editor](custom-css-styling.md#where-to-find-the-custom-css-editor)
+* [How to Enable and Apply Custom CSS](custom-css-styling.md#how-to-enable-and-apply-custom-css)
+* [Writing Your Custom CSS](custom-css-styling.md#writing-your-custom-css)
+  * [Using CSS Variables](custom-css-styling.md#using-css-variables)
+  * [Targeting Elements](custom-css-styling.md#targeting-elements)
+  * [Example: Changing Section Titles](custom-css-styling.md#example-changing-section-titles)
+  * [Example: Dark Mode Adjustments](custom-css-styling.md#example-dark-mode-adjustments)
+* [Tips for Writing Production-Ready CSS](custom-css-styling.md#tips-for-writing-production-ready-css)
+* [Print Optimization](custom-css-styling.md#print-optimization)
+* [Reference: Available CSS Variables](custom-css-styling.md#reference-available-css-variables)
+* [Troubleshooting](custom-css-styling.md#troubleshooting)
+* [Sample Production-Ready Custom CSS](custom-css-styling.md#sample-production-ready-custom-css)
 
 ***
 

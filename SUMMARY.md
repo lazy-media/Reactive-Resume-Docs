@@ -36,7 +36,7 @@
 * [🖇️ Importing your data from LinkedIn](product-guides/importing-your-data-from-linkedin.md)
 * [📃 Creating a Multi-Page Resume](product-guides/creating-a-multi-page-resume.md)
 * [🔄 Change the number of columns for a section](product-guides/change-the-number-of-columns-for-a-section.md)
-* [Custom CSS Styling in Reactive Resume](product-guides/custom-css-styling-in-reactive-resume.md)
+* [Custom CSS Styling](product-guides/custom-css-styling.md)
 
 ## Self Hosting Guides
 
