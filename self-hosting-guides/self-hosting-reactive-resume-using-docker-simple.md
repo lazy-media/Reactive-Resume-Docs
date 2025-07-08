@@ -24,7 +24,7 @@ I'm going to assume you have already set up your server along with a user accoun
 * [https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-debian-11)
 * [https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
 
-## Docker Install Methods
+## Docker Installation Methods
 
 {% include "../.gitbook/includes/docker-installation-methods.md" %}
 
