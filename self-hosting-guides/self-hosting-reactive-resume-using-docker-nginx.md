@@ -28,7 +28,7 @@ I'm going to assume you have already set up your server along with a user accoun
 
 {% include "../.gitbook/includes/docker-installation-methods.md" %}
 
-## Docker Compose & ENV Files
+## Docker Compose File
 
 Copy the following code to the home folder (or any specific project folder) on your machine, to a file named `compose.yml`or `docker-compose.yml`. If you choose to name the file anything else, you would need to run the docker compose command along with the `-f [file path]` flag.
 
@@ -172,6 +172,8 @@ volumes:
   postgres_data:
   letsencrypt_data:
 ```
+
+### ENV File
 
 Use this .env example file. Replacing the values with the correct ones.
 
@@ -330,6 +332,8 @@ REFRESH_TOKEN_SECRET=refresh_token_secret
 ```
 
 where you need to replace the values on the right side of the `=` sign. Make sure you generate or use strong random passwords or something similar for the Tokens, Postgres and Minio. Change the URL's to your respective domain.
+
+### Starting & Running Reactive Resume
 
 Now, run the compose project by running the following command:
 
