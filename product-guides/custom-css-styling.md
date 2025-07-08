@@ -4,7 +4,7 @@ icon: file-code
 
 # Custom CSS Styling
 
-_<mark style="color:red;">**Please be aware, that this is a rough example. This particular page was made using AI (GitHub CoPilot). This information may not be entirely accurate.**</mark>_
+_<mark style="color:red;">**Please note that this is a preliminary example. The content on this page was generated with the assistance of AI (GitHub Copilot) and may not be fully accurate.**</mark>_
 
 Reactive Resume allows you to personalize your resume even further through custom CSS. This feature lets you override or extend the default styles, providing full control over the look and feel of your final document. This guide explains how to use, write, and apply custom CSS within the application.
 
