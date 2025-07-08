@@ -35,6 +35,7 @@
 * [📃 Creating a Multi-Page Resume](product-guides/creating-a-multi-page-resume.md)
 * [🧠 Use ChatGPT to rewrite your resume](product-guides/use-chatgpt-to-rewrite-your-resume.md)
 * [🔄 Change the number of columns for a section](product-guides/change-the-number-of-columns-for-a-section.md)
+* [Custom CSS Styling in Reactive Resume](product-guides/custom-css-styling-in-reactive-resume.md)
 * [Self-Hosting Reactive Resume using Docker - SIMPLE](product-guides/self-hosting-reactive-resume-using-docker.md)
 * [Self-Hosting Reactive Resume using Docker - NGINX](product-guides/self-hosting-reactive-resume-using-docker-1.md)
 
