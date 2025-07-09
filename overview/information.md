@@ -24,4 +24,4 @@ If you encounter any issues receiving emails, please contact us:
 * **Support Email:** [support@lazymedia.media](mailto:support@lazymedia.media)
 * **Contact Form:** [Submit a request](https://support.lazymedia.media/contactme)
 
-Thank you for trusting Reactive Resume!
+Thank you for trusting Lazy Media's Reactive Resume!

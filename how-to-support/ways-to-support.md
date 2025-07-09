@@ -4,38 +4,15 @@ icon: hand-holding-circle-dollar
 
 # Ways to Support
 
-### 💖 Support My Work
-
-> Looking for N8N Automations? Visit my [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge\&logo=patreon\&logoColor=white)](https://link.lazymedia.media/patreon).
-
-### Need to build a Resume?
-
-<details>
-
-<summary>Click Here to Build A Resume!</summary>
-
-* Visit [**Lazy Medias Reactive Resume**](https://rxresume.org)**!**
-* Create a **FREE account** now.
-  * _No Email Verification Required!_
-
-Everyone should be able to have access to a way to have a professional Resume.
-
-A resume builder application with:
-
-* Public Link Sharing
-* Public WebPage Sharing
-* AI capabilities (if setup correctly)
-* And more!
-
-View our [Public GitHub Documentation](https://github.com/lazy-media/public/tree/main/Reactive-Resume/Installation#adding-local-ai--openwebui-to-reactive-resume) for proper instructions on AI Integration.
-
-</details>
+> ^wLooking for N8N Automations? Visit my [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge\&logo=patreon\&logoColor=white)](https://link.lazymedia.media/patreon).
 
 > #### Enjoying this project? Help me keep it alive and evolving:
 
+[![Crowdin](https://img.shields.io/badge/Translate_Reactive_Resume_with_Crowdin-2ecc71?logo=crowdin)](https://crowdin.com/project/lazymedia-reactive-resume)
+
 #### 🌟 One-Time Donations
 
-[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge\&logo=paypal\&logoColor=white)](https://paypal.me/lazymediawa) [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge\&logo=buymeacoffee\&logoColor=black)](https://buymeacoffee.com/lazymedia) [![Venmo](https://img.shields.io/badge/Venmo-008CFF?style=for-the-badge\&logo=venmo\&logoColor=white)](https://venmo.com/lazymedia) [![OpenCollective](https://img.shields.io/badge/OpenCollective-7FADF2?style=for-the-badge\&logo=opencollective\&logoColor=white)](https://opencollective.com/lazymedia)
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge\&logo=paypal\&logoColor=white)](https://paypal.me/lazymediawa) [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge\&logo=buymeacoffee\&logoColor=black)](https://buymeacoffee.com/lazymedia) [![Venmo](https://img.shields.io/badge/Venmo-008CFF?style=for-the-badge\&logo=venmo\&logoColor=white)](https://venmo.com/lazymedia)
 
 #### 🔄 Recurring Support
 

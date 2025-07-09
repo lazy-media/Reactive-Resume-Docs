@@ -1,7 +1,8 @@
 ---
 description: >-
   A free and open-source resume builder that simplifies the process of creating,
-  updating, and sharing your resume.
+  updating, and sharing your resume. Hosted and currently maintained by Lazy
+  Media.
 ---
 
 # 👋 Reactive Resume
