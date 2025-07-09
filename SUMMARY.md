@@ -17,6 +17,7 @@
 ## Contributing
 
 * [💶 Sponsor through GitHub Sponsors](contributing/sponsor-through-github-sponsors.md)
+* [Other Ways to Support](contributing/other-ways-to-support.md)
 * [💵 Sponsor through Open Collective](contributing/sponsor-through-open-collective.md)
 * [🇧🇷 Translating Reactive Resume into your language](contributing/translating-reactive-resume-into-your-language.md)
 
@@ -48,7 +49,3 @@
 * [⚖️ License](meta/license.md)
 * [🔏 Privacy Policy](meta/privacy-policy.md)
 * [🐕‍🦺 Terms of Service](meta/terms-of-service.md)
-
-## How to Support
-
-* [Ways to Support](how-to-support/ways-to-support.md)
