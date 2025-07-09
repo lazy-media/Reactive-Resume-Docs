@@ -2,7 +2,9 @@
 
 ## Overview
 
-Have some time? Take a read through this documentation to see if anything interests you.\
+Have some time? Take a read through this documentation to see if anything interests you.
+
+_Documentation is currently only provided in English._\
 \
 &#xNAN;_&#x57;ill update this at a later time. Maybe even with a video of Reactive Resume..._
 
