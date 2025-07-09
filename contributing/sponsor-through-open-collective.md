@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 💵 Sponsor through Open Collective
 
 Reactive Resume is fiscally hosted by [Open Collective Europe](https://www.oceurope.org/), which technically gives the project a "non-profit" status.
