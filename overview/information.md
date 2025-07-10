@@ -10,6 +10,10 @@ _Documentation is currently only provided in English._\
 
 ***
 
+_CLOUD VERSION UPDATES AT MIDNIGHT DAILY._
+
+***
+
 ## Ensuring Your Privacy with Reactive Resume Email Communications
 
 The email address associated with the public/free version of Reactive Resume (`owner@lazymedia.media`) is used **solely** for sending verification emails and password reset requests. Privacy is our top priority, which is why we have implemented an automated email filter to immediately delete messages from the `rxresume.org` domain after they are sent.
