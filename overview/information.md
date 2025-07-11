@@ -10,7 +10,7 @@ _Documentation is currently only provided in English._\
 
 ***
 
-_CLOUD VERSION UPDATES AT MIDNIGHT DAILY._
+_CLOUD VERSION UPDATES AT MIDNIGHT DAILY (PST)._
 
 ***
 
