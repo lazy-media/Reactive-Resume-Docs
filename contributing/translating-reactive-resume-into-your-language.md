@@ -2,11 +2,13 @@
 
 If you speak a language other than English, please consider helping to translate Reactive Resume into your native language. You can sign up to be a translator even if your language is already translated, this would ensure that you get updated whenever the app adds new phrases to be translated.
 
+[![Crowdin](https://img.shields.io/badge/Translate_Reactive_Resume_with_Crowdin-2ecc71?logo=crowdin)](https://crowdin.com/project/lazymedia-reactive-resume)
+
 By making the app available in multiple languages, more people in non-English dominant regions can use the app, create their own professional resumes, and feel included.
 
 [![Crowdin](https://img.shields.io/badge/Translate_Reactive_Resume_with_Crowdin-2ecc71?logo=crowdin)](https://crowdin.com/project/lazymedia-reactive-resume)
 
-To translate Reactive Resume, simply create an account on Crowdin or head on over to [https://crowdin.com/project/lazymedia-reactive-resume](https://crowdin.com/project/lazymedia-reactive-resume) which redirects you to the Crowdin project page. Here, you can see a list of languages that are available for translations.
+To translate Reactive Resume, simply create an account on Crowdin or head on over to [https://crowdin.com/project/lazymedia-reactive-resume](https://crowdin.com/project/lazymedia-reactive-resume) which takes you to the Crowdin project page. Here, you can see a list of languages that are available for translations.
 
 <figure><img src="../.gitbook/assets/Crowdin-Profile-Page.png" alt=""><figcaption></figcaption></figure>
 
