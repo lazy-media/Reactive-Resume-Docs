@@ -29,5 +29,6 @@ If you encounter any issues receiving emails, please contact us:
 
 * **Support Email:** [support@lazymedia.media](mailto:support@lazymedia.media)
 * **Contact Form:** [Submit a request](https://support.lazymedia.media/contactme)
+* **Discord Server:** [Lazy Media's Reactive Resume](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
 Thank you for trusting Lazy Media's Reactive Resume!
