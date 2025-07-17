@@ -11,7 +11,7 @@ description: >-
 
 _**Lazy Media is updating these documents to reflect the new ownership and information. Your patience during this process is appreciated.**_
 
-_Discord Server coming soon for this version of Reactive Resume._
+[**Discord Server Now Available**](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
 ### _**NOTICE:**_
 
