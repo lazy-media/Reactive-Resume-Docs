@@ -1,15 +1,18 @@
 # Table of contents
 
 * [👋 Reactive Resume](README.md)
+* [💡 Information](information.md)
 
 ## Overview
 
-* [💡 Information](overview/information.md)
 * [✨ Features](overview/features.md)
+
+***
+
+* [🎴 Mission](mission.md)
 
 ## Engineering
 
-* [🎴 Mission](engineering/mission.md)
 * [🎒 Tech Stack](engineering/tech-stack.md)
 * [🔧 How It Works: The Frontend](engineering/how-it-works-the-frontend.md)
 * [🔨 How It Works: The Backend](engineering/how-it-works-the-backend.md)

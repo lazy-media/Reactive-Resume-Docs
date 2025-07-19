@@ -4,13 +4,18 @@
 
 Have some time? Take a read through this documentation to see if anything interests you.
 
-_Documentation is currently only provided in English._\
-\
-&#xNAN;_&#x57;ill update this at a later time. Maybe even with a video of Reactive Resume..._
+_Documentation is currently only provided in English._
 
 ***
 
-_CLOUD VERSION UPDATES AT MIDNIGHT DAILY (PST)._
+### Cloud Version Information
+
+* Updates at Midnight (PST) daily
+* Incremental Backups in place:
+  * **Daily Incremental Backups**: retained for seven days
+  * **Weekly incremental backups:** Runs on Sunday and retained for four weeks
+  * **Monthly incremental backups:** Runs on the first day of the month, retained for twelve months
+  * **Yearly incremental backup:** Runs yearly during the first part of January. This backup is retained for five years.
 
 ***
 

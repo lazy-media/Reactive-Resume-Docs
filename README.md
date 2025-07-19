@@ -15,8 +15,8 @@ _**Lazy Media is updating these documents to reflect the new ownership and infor
 
 ### _**NOTICE:**_
 
-_**Known Issues for v1.1.8:**_\
-_**If resume refuses to open after updating to v1.1.8, please do the following steps to fix it:**_\
+_**Known Issues for v1.1.8+:**_\
+_**If existing resumes refuse to open after updating to v1.1.8, please do the following steps to fix it:**_\
 _**1. Edit your resume name by 1 character**_\
 _**2. Open resume**_\
 _**3. Edit each job for resume**_\
@@ -33,8 +33,8 @@ _**We apologize for any inconvenience this may cause, and we are currently tryin
 
 Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.
 
-It's available in multiple languages and comes packed with features such as real-time editing, dozens of templates, drag-and-drop customisation, and integration with OpenAI for enhancing your writing.
+It's available in multiple languages and comes packed with features such as real-time editing, dozens of templates, drag-and-drop customization, and integration with OpenAI for enhancing your writing.
 
-You can share a personalised link of your resume to potential employers, track its views or downloads, and customise your page layout by dragging-and-dropping sections. The platform also supports various font options and provides dozens of templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.
+You can share a personalized link of your resume to potential employers, track its views or downloads, and customize your page layout by dragging-and-dropping sections. The platform also supports various font options and provides dozens of templates to choose from. And yes, there's even a dark mode for a more comfortable viewing experience.
 
 Start creating your standout resume with Reactive Resume today!
