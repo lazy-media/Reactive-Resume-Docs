@@ -15,7 +15,7 @@ _**Lazy Media is updating these documents to reflect the new ownership and infor
 
 ### _**NOTICE:**_
 
-_**Known Issues for v1.1.8+:**_\
+_**Known Issues for v1.1.8 (Should be fixed in v1.2.0):**_\
 _**If existing resumes refuse to open after updating to v1.1.8, please do the following steps to fix it:**_\
 _**1. Edit your resume name by 1 character**_\
 _**2. Open resume**_\
