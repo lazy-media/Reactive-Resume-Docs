@@ -17,13 +17,6 @@
 * [🔧 How It Works: The Frontend](engineering/how-it-works-the-frontend.md)
 * [🔨 How It Works: The Backend](engineering/how-it-works-the-backend.md)
 
-## Contributing
-
-* [💶 Sponsor through GitHub Sponsors](contributing/sponsor-through-github-sponsors.md)
-* [Other Ways to Support](contributing/other-ways-to-support.md)
-* [💵 Sponsor through Open Collective](contributing/sponsor-through-open-collective.md)
-* [🇧🇷 Translating Reactive Resume into your language](contributing/translating-reactive-resume-into-your-language.md)
-
 ## Product Guides
 
 * [🦸 Setting up your account](product-guides/setting-up-your-account.md)
@@ -42,10 +35,21 @@
 * [🔄 Change the number of columns for a section](product-guides/change-the-number-of-columns-for-a-section.md)
 * [Custom CSS Styling](product-guides/custom-css-styling.md)
 
+## Contributing
+
+* [Contributing to Reactive Resume](contributing/contributing-to-reactive-resume.md)
+* [🇧🇷 Translating Reactive Resume into your language](contributing/translating-reactive-resume-into-your-language.md)
+
 ## Self Hosting Guides
 
 * [Self-Hosting Reactive Resume using Docker - SIMPLE](self-hosting-guides/self-hosting-reactive-resume-using-docker-simple.md)
 * [Self-Hosting Reactive Resume using Docker - NGINX](self-hosting-guides/self-hosting-reactive-resume-using-docker-nginx.md)
+
+## Donations & Sponsorships
+
+* [💶 Sponsor through GitHub Sponsors](donations-and-sponsorships/sponsor-through-github-sponsors.md)
+* [Other Ways to Support](donations-and-sponsorships/other-ways-to-support.md)
+* [💵 Sponsor through Open Collective](donations-and-sponsorships/sponsor-through-open-collective.md)
 
 ## Meta
 
