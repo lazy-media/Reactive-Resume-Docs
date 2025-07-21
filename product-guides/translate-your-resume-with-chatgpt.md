@@ -4,7 +4,7 @@ ChatGPT, even the free version, is capable of translating your resume into many 
 
 In this guide, I go through the basics of how to export your resume in JSON format and funnel it into ChatGPT with the appropriate prompt. Once you have the resulting translated JSON, simply import it back into Reactive Resume and you can then make further edits appropriate for the locale.
 
-Here's an example conversation I had with ChatGPT, translating a sample resume originally written in English into German:\
+Here's an example conversation the original creator of Reactive Resume had with ChatGPT, translating a sample resume originally written in English into German:\
 \
 [https://chat.openai.com/share/50ec9a4b-6a94-431f-abb4-89ae1699439f](https://chat.openai.com/share/50ec9a4b-6a94-431f-abb4-89ae1699439f)
 
