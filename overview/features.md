@@ -18,6 +18,28 @@ Inarguable, single columns are the way to go for maximum ATS compatibility, but 
 
 <figure><img src="../.gitbook/assets/Multiple-Columns.png" alt=""><figcaption></figcaption></figure>
 
+## Multiple Templates
+
+|               Azurill               |               Bronzor               |               Chikorita               |
+| :---------------------------------: | :---------------------------------: | :-----------------------------------: |
+| ![](../.gitbook/assets/azurill.jpg) | ![](../.gitbook/assets/bronzor.jpg) | ![](../.gitbook/assets/chikorita.jpg) |
+
+|               Ditgar               |               Ditto               |               Gengar               |
+| :--------------------------------: | :-------------------------------: | :--------------------------------: |
+| ![](../.gitbook/assets/ditgar.jpg) | ![](../.gitbook/assets/ditto.jpg) | ![](../.gitbook/assets/gengar.jpg) |
+
+|               Glalie               |               Kakuna               |               Leafish               |
+| :--------------------------------: | :--------------------------------: | :---------------------------------: |
+| ![](../.gitbook/assets/glalie.jpg) | ![](../.gitbook/assets/kakuna.jpg) | ![](../.gitbook/assets/leafish.jpg) |
+
+|               Nosepass               |               Onyx               |               Pikachu               |
+| :----------------------------------: | :------------------------------: | :---------------------------------: |
+| ![](../.gitbook/assets/nosepass.jpg) | ![](../.gitbook/assets/onyx.jpg) | ![](../.gitbook/assets/pikachu.jpg) |
+
+|                Ryhorn               |
+| :---------------------------------: |
+| ![](../.gitbook/assets/rhyhorn.jpg) |
+
 ## Other Features
 
 There's honestly just too many to count, and there are new features being baked into the app everyday. But here's a neat little slide that summarizes all the major features of Reactive Resume.
