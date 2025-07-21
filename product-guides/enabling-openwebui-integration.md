@@ -45,9 +45,13 @@ Once you have the secret key from OpenWebUI, head over to the settings page in R
 
 Here, you can enter the API key provided, and click on "Store Locally".
 
-You will also need to fill in the Base URL with the Open WebUI Instance you are using. As of right now, this only seems to work over HTTPS connections, not HTTP connections, so a FQDN is recommended.
+You will also need to fill in the Base URL with the Open WebUI Instance you are using. As of right now, this only seems to work over HTTPS connections, not HTTP connections, so a FQDN is recommended. Your URL should look something like `https://ai.example.com/api` .
 
 Fill in the model with an available model on your local AI. It is recommended to enter the model you want to use as something like `llama3.2:latest`  or whatever model you want to use. If you want to set your `Max Tokens`, feel free to, otherwise leave it as is with `1024` .&#x20;
+
+> It is HIGHLY recommended to avoid the use of _thinking_ models such as Deepseek. This is due to how the _thinking_ models act on OpenWebUI. The _thinking_ context is seen as an output for Reactive Resume.
+
+> Reactive Resume has built in AI prompts to tell an AI Model how to perform the appropriate actions. Recommended to use models similar to `llama3.2:latest`.
 
 If you are satisfied with your settings, click on `Save Locally`.
 
