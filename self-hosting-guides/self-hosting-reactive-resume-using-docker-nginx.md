@@ -32,151 +32,14 @@ I'm going to assume you have already set up your server along with a user accoun
 
 Copy the following code to the home folder (or any specific project folder) on your machine, to a file named `compose.yml`or `docker-compose.yml`. If you choose to name the file anything else, you would need to run the docker compose command along with the `-f [file path]` flag.
 
-**BE SURE TO CHANGE THE ONE ITEM UNDER THE MINIO SECTION WITH YOUR DOMAIN!**
+**BE SURE TO CHANGE THE ONE ITEM UNDER THE MINIO SECTION WITH YOUR DOMAIN IN THE DOCKER COMPOSE FILE!**
 
-```yaml
-# In this Docker Compose example, we use Nginx Proxy Manager to manage the reverse proxy and SSL certificates.
-# There's very little configuration to be made on the compose file itself, and most of it is done on the Nginx Proxy Manager UI.
+{% tabs %}
+{% tab title="Docker Compose Example - NGINX" %}
+{% @github-files/github-code-block url="https://github.com/lazy-media/Reactive-Resume/blob/main/tools/compose/nginx-proxy-manager.yml" %}
+{% endtab %}
 
-services:
-  # Database (Postgres)
-  postgres:
-    image: postgres:16-alpine
-    restart: ${RESTART_POLICY:-unless-stopped}
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    environment:
-      POSTGRES_USER: ${POSTGRES_USER:-postgres}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
-      POSTGRES_DB: ${POSTGRES_DB:-postgres}
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
-      interval: 10s
-      timeout: 5s
-      retries: 5
-
-  # Storage (for image uploads)
-  minio:
-    image: minio/minio:latest
-    restart: ${RESTART_POLICY:-unless-stopped}
-    command: server /data
-    volumes:
-      - minio_data:/data
-    environment:
-      MINIO_ROOT_USER: ${MINIO_ROOT_USER:-minioadmin}
-      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:-minioadmin}
-    labels:
-      - traefik.enable=true
-      - traefik.http.routers.storage.rule=Host(`storage.example.com`) # Update this to your domain instead of example.com
-      - traefik.http.routers.storage.entrypoints=websecure
-      - traefik.http.routers.storage.tls.certresolver=letsencrypt
-      - traefik.http.services.storage.loadbalancer.server.port=9000
-
-  # Chrome Browser (for printing and previews)
-  chrome:
-    image: ghcr.io/browserless/chromium:latest
-    restart: ${RESTART_POLICY:-unless-stopped}
-    environment:
-      HEALTH: "true"
-      TOKEN: ${CHROME_TOKEN:-chrome_token}
-      PROXY_HOST: ${PROXY_HOST}
-      PROXY_PORT: ${PROXY_PORT:-443}
-      PROXY_SSL: ${PROXY_SSL}
-
-  app:
-    image: ${IMAGE:-pickit420/reactive-resume}:${IMAGE_TAG:-latest}
-    restart: ${RESTART_POLICY:-unless-stopped}
-    depends_on:
-      - postgres
-      - minio
-      - chrome
-    environment:
-      # -- Environment Variables --
-      PORT: ${APP_PORT:-3000}
-      NODE_ENV: ${NODE_ENV:-production}
-
-      # -- URLs --
-      PUBLIC_URL: ${PUBLIC_URL}
-      STORAGE_URL: ${STORAGE_URL}
-
-      # -- Printer (Chrome) --
-      CHROME_TOKEN: ${CHROME_TOKEN}
-      CHROME_URL: ${CHROME_URL}
-
-      # -- Database (Postgres) --
-      DATABASE_URL: ${DATABASE_URL}
-
-      # -- Auth --
-      ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
-      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET}
-
-      # -- Emails --
-      MAIL_FROM: ${MAIL_FROM}
-      # SMTP_URL: smtp://${SMTP_USER}:${SMTP_PASS}@${SMTP_ADDR}:${SMTP_PORT} # Optional
-
-      # -- Storage (Minio) --
-      STORAGE_ENDPOINT: ${STORAGE_ENDPOINT}
-      STORAGE_PORT: ${STORAGE_PORT:-9000}
-      STORAGE_REGION: ${STORAGE_REGION} # Optional
-      STORAGE_BUCKET: ${STORAGE_BUCKET}
-      STORAGE_ACCESS_KEY: ${STORAGE_ACCESS_KEY}
-      STORAGE_SECRET_KEY: ${STORAGE_SECRET_KEY}
-      STORAGE_USE_SSL: ${STORAGE_USE_SSL}
-      STORAGE_SKIP_BUCKET_CHECK: ${STORAGE_SKIP_BUCKET_CHECK}
-
-      # -- Crowdin (Optional) --
-      # CROWDIN_PROJECT_ID: ${CROWDIN_PROJECT_ID}
-      # CROWDIN_PERSONAL_TOKEN: ${CROWDIN_PERSONAL_TOKEN}
-
-      # -- Feature Flags (Optional) --
-      # DISABLE_SIGNUPS: ${DISABLE_SIGNUPS}
-      # DISABLE_EMAIL_AUTH: ${DISABLE_EMAIL_AUTH}
-
-      # -- GitHub (Optional) --
-      # GITHUB_CLIENT_ID: ${GITHUB_CLIENT_ID}
-      # GITHUB_CLIENT_SECRET: ${GITHUB_CLIENT_SECRET}
-      # GITHUB_CALLBACK_URL: ${GITHUB_CALLBACK_URL}
-
-      # -- Google (Optional) --
-      # GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
-      # GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
-      # GOOGLE_CALLBACK_URL: ${GOOGLE_CALLBACK_URL}
-
-      # -- OpenID (Optional) --
-      # VITE_OPENID_NAME: ${VITE_OPENID_NAME}
-      # OPENID_AUTHORIZATION_URL: ${OPENID_AUTHORIZATION_URL}
-      # OPENID_CALLBACK_URL: ${OPENID_CALLBACK_URL}
-      # OPENID_CLIENT_ID: ${OPENID_CLIENT_ID}
-      # OPENID_CLIENT_SECRET: ${OPENID_CLIENT_SECRET}
-      # OPENID_ISSUER: ${OPENID_ISSUER}
-      # OPENID_SCOPE: ${OPENID_SCOPE}
-      # OPENID_TOKEN_URL: ${OPENID_TOKEN_URL}
-      # OPENID_USER_INFO_URL: ${OPENID_USER_INFO_URL}
-
-  nginx:
-    image: jc21/nginx-proxy-manager
-    restart: ${RESTART_POLICY:-always}
-    ports:
-      - "80:80"
-      - "443:443"
-      - "81:81" # Port 81 is used for Proxy Manager's Web UI
-    volumes:
-      - nginx_data:/data
-      - letsencrypt_data:/etc/letsencrypt
-    environment:
-      DISABLE_IPV6: "true"
-
-volumes:
-  minio_data:
-  nginx_data:
-  postgres_data:
-  letsencrypt_data:
-```
-
-### ENV File
-
-Use this .env example file. Replacing the values with the correct ones.
-
+{% tab title="ENV Example - NGINX" %}
 ```yaml
 ###################################
 ##### RESTART POLICY SETTINGS #####
@@ -314,6 +177,12 @@ OPENID_CLIENT_ID=
 OPENID_CLIENT_SECRET=
 OPENID_SCOPE=openid profile email
 ```
+{% endtab %}
+{% endtabs %}
+
+### ENV File
+
+Use the above .env example file. Replacing the values with the correct ones.
 
 Make sure to update all the environment variables.
 
