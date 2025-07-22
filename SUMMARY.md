@@ -49,7 +49,6 @@
 
 * [💶 Sponsor through GitHub Sponsors](donations-and-sponsorships/sponsor-through-github-sponsors.md)
 * [Other Ways to Support](donations-and-sponsorships/other-ways-to-support.md)
-* [💵 Sponsor through Open Collective](donations-and-sponsorships/sponsor-through-open-collective.md)
 
 ## Meta
 
