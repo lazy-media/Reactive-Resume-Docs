@@ -8,7 +8,7 @@ To do this, first log in to your LinkedIn account and navigate to the ["Export y
 
 Here, select the option that says “_Download larger data archive, including connections, verifications, contacts, account history, and information we infer about you based on your profile and activity.”_.
 
-<figure><img src="../.gitbook/assets/Export-LinkedIn-Resume.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Export-LinkedIn-Data.png" alt=""><figcaption></figcaption></figure>
 
 While Reactive Resume doesn't require all of this data, LinkedIn only exports your work experience and education data if you select this option, and skips it if you choose the other one.
 
