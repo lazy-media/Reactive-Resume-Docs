@@ -38,7 +38,7 @@ Copy the following code to the home folder (or any specific project folder) on y
 {% endtab %}
 
 {% tab title="ENV File - Simple Example" %}
-{% @github-files/github-code-block %}
+{% @github-files/github-code-block url="https://github.com/lazy-media/Reactive-Resume/blob/main/.env.example" %}
 {% endtab %}
 {% endtabs %}
 
@@ -79,7 +79,7 @@ docker compose logs -f
 
 If you see the following output, it means everything is working as expected
 
-{% code lineNumbers="true" fullWidth="true" %}
+{% code lineNumbers="true" fullWidth="false" %}
 ```sh
 app-1       | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [Bootstrap] 🚀 Server is up and running on port 3000
 ```

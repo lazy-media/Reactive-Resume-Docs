@@ -220,7 +220,7 @@ docker compose logs -f
 
 If you see something similar to the following output, it should mean everything is working as expected:
 
-{% code lineNumbers="true" fullWidth="true" %}
+{% code lineNumbers="true" fullWidth="false" %}
 ```
 app-1 | [Nest] 75  - 01/17/2025, 10:22:54 PM     LOG [Bootstrap] 🚀 Server is up and running on port xxxx
 ```
