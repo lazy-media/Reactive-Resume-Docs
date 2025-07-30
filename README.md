@@ -13,23 +13,7 @@ _**Lazy Media is updating these documents to reflect the new ownership and infor
 
 [**Discord Server Now Available**](https://discord.com/servers/lazy-media-s-reactive-resume-1392393638247530587)
 
-### _**NOTICE:**_
-
-_**Known Issues for v1.1.8 (Should be fixed in v1.2.0):**_\
-_**If existing resumes refuse to open after updating to v1.1.8, please do the following steps to fix it:**_\
-_**1. Edit your resume name by 1 character**_\
-_**2. Open resume**_\
-_**3. Edit each job for resume**_\
-_**4. Under \`Type of Employment\` either select your choice or leave as is with \`N/A\`**_\
-_**5. Click Save**_\
-_**6. Repeat steps 4 & 5 for each job**_\
-_**7. Change resume name back to original**_
-
-_**We apologize for any inconvenience this may cause, and we are currently trying to fix it.**_
-
 ***
-
-## Overview
 
 Reactive Resume is a free and open-source resume builder that simplifies the process of creating, updating, and sharing your resume. With zero user tracking or advertising, your privacy is a top priority. The platform is extremely user-friendly and can be self-hosted in less than 30 seconds if you wish to own your data completely.
 
