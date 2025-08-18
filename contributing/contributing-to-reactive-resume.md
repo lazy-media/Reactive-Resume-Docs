@@ -146,6 +146,8 @@ It should take just under half a minute for all the services to be booted up cor
 
 Firstly, ensure that there is a GitHub Issue created for the feature or bugfix you are working on. If it does not exist, create an issue and assign it to yourself.
 
+_Don't forget to remove the edits or revert the `.env.example` file back to it's original state before pushing commits._
+
 Once you are happy with the changes you've made locally, commit it to your repository. Note that the project makes use of Conventional Commits, so commit messages would have to be in a specific format for it to be accepted. For example, a commit message to fix the translation on the homepage could look like:
 
 ```
