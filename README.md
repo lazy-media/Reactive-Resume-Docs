@@ -7,6 +7,16 @@ description: >-
 
 # 👋 Reactive Resume
 
+***
+
+Hey everyone, ever feel like you're missing out on \~70% of the world's population? Well, fret no more!
+
+The docs have decided to become multilingual world travelers. You can now bask in their glory in: Español, Français, Deutsch, Italiano, Português, Português Brasileiro, & Русский.
+
+Find the magic button at the top of the sidebar to stop squinting at the screen and start reading in a language you actually understand. A huge, _properly translated_ thank you to GitBook for sponsoring this little feat of modern magic.
+
+***
+
 <figure><img src=".gitbook/assets/Introduction.jpg" alt=""><figcaption></figcaption></figure>
 
 _**Lazy Media is updating these documents to reflect the new ownership and information. Your patience during this process is appreciated.**_
