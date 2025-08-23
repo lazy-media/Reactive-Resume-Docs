@@ -46,9 +46,7 @@ Services such as **Perplexity AI**, **Claude API**, and other providers that do 
 **We highly recommend against using "thinking" AI models** such as DeepSeek's thinking models or any AI that employs extended processing chains before responding. These models:
 
 1. **Break expected response patterns** that Reactive Resume relies on
-2. **Cause timeouts and processing errors** due to extended response times
-3. **Provide unstructured responses** that cannot be properly parsed
-4. **Interfere with the standard request-response flow** essential for resume generation
+2. **Interfere with the standard request-response flow** essential for resume generation
 
 ### Troubleshooting
 
