@@ -6,10 +6,7 @@
 ## Overview
 
 * [✨ Features](overview/features.md)
-
-***
-
-* [🎴 Mission](mission.md)
+* [🎴 Mission](overview/mission.md)
 
 ## Engineering
 
@@ -27,6 +24,7 @@
 * [🧠 Enabling OpenWebUI / Ollama Integration](product-guides/enabling-openwebui-integration.md)
 * [🇦🇮 Translate your resume with ChatGPT](product-guides/translate-your-resume-with-chatgpt.md)
 * [🧠 Use ChatGPT to rewrite your resume](product-guides/use-chatgpt-to-rewrite-your-resume.md)
+* [🛑 Alternate AI Integration Guide](product-guides/alternate-ai-integration-guide.md)
 * [👩‍💻 Exporting your resume as JSON](product-guides/exporting-your-resume-as-json.md)
 * [👩‍💻 Exporting your resume as PDF](product-guides/exporting-your-resume-as-pdf.md)
 * [📢 Making your resume publicly available](product-guides/making-your-resume-publicly-available.md)
