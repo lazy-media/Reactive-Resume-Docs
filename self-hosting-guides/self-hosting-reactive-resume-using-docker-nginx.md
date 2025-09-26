@@ -182,11 +182,11 @@ OPENID_SCOPE=openid profile email
 
 ### ENV File
 
-Use the above .env example file. Replacing the values with the correct ones.
+Use the above .env example file. Place it in the same folder as your `compose.yml` and ensure its filename is exactly `.env`.
 
-Make sure to update all the environment variables.
+Make sure to update all the environment variables relevant to your configuration.
 
-In this case, there's nothing much to change except for the following values:
+In this case, there's not much to change except for the following values:
 
 ```
 POSTGRES_PASSWORD=postgres
@@ -200,7 +200,15 @@ ACCESS_TOKEN_SECRET=access_token_secret
 REFRESH_TOKEN_SECRET=refresh_token_secret
 ```
 
-where you need to replace the values on the right side of the `=` sign. Make sure you generate or use strong random passwords or something similar for the Tokens, Postgres and Minio. Change the URL's to your respective domain.
+where you need to replace the values on the right side of the = sign. Make sure you generate or use strong random passwords or something similar for the Tokens, Postgres and Minio. Replace localhost as needed if you're hosting on a separate server.
+
+**Note that passwords must be URL encoding safe.** An easy way to generate URL safe passwords is to use openssl (included with most linux distributions) to generate a hex-encoded password, as shown below:
+
+```bash
+openssl rand --hex 48
+```
+
+Non-URL-safe passwords will cause the app container to be unable to communicate with the minio, postgres, and chrome containers, which brick the app in the case of minio or postgres and prevent you from exporting a PDF in the case of chrome.
 
 ### Starting & Running Reactive Resume
 
