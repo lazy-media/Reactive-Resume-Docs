@@ -76,7 +76,7 @@ pnpm run lint:fix
 
 #### Fixing Language Errors
 
-> This is needed when updating major information that gets translated throughout the application.
+> It is **HIGHLY recommended to run this command to make sure all translations line up correctly for any changes made. This means, this NEEDS to be run if you update any information that gets translated, or any files that are referenced for translations. Best to run before Testing Lint, Test & Build just to be safe. If it does run and things are updated that is needed, about 45 files will be automatically updated with this command inside the locales folder.**
 
 ```sh
 pnpm run messages:extract
