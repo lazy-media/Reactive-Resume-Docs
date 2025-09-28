@@ -76,13 +76,17 @@ pnpm run lint:fix
 
 #### Fixing Language Errors
 
-> It is **HIGHLY recommended to run this command to make sure all translations line up correctly for any changes made. This means, this NEEDS to be run if you update any information that gets translated, or any files that are referenced for translations. Best to run before Testing Lint, Test & Build just to be safe. If it does run and things are updated that is needed, about 45 files will be automatically updated with this command inside the locales folder.**
+> It is **HIGHLY recommended to run this command to make sure all translations line up correctly for any changes made. This means, this NEEDS to be run if you update any information that gets translated, or any files that are referenced for translations. Best to run before Testing Lint, Test & Build just to be safe. If it does run, and files are updated, about 45 files should be automatically updated with this command inside the locales folder.**
 
 ```sh
 pnpm run messages:extract
 ```
 
 #### Testing Lint, Test, & Build
+
+> If using VSCode, remove the container configuration file that was automatically created, otherwise it will interfere with the command below. The container will continue to run without this file present. It is only needed at first startup of the container for default configuration.
+
+> If using Github Codespaces, this command should run just fine.
 
 ```sh
 pnpm run lint && pnpm run format && pnpm run test && pnpm run build
