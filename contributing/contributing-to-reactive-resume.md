@@ -62,6 +62,14 @@ Make the edits to the files you want to update. Be sure to save the files locall
 pnpm install --frozen-lockfile
 ```
 
+#### Fixing Build Issues / Approving Build Packages
+
+```bash
+pnpm approve-builds
+```
+
+This will then list packages that need to be approved to run to build. Click `A` on your keyboard, then `Y`.
+
 #### Fixing Prettier Formatting Issues
 
 ```sh
