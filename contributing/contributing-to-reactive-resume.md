@@ -97,7 +97,19 @@ pnpm run messages:extract
 > If using Github Codespaces, this command should run just fine.
 
 ```sh
-pnpm run lint && pnpm run format && pnpm run test && pnpm run build
+pnpm run lint
+```
+
+```bash
+pnpm run format
+```
+
+```bash
+pnpm run test
+```
+
+```bash
+pnpm run build
 ```
 
 ### 4. Testing Changes
