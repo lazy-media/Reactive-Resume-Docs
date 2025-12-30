@@ -244,9 +244,19 @@ _Change your information if it asks you to. If it doesn't you can always do it f
 
 Navigate to `Hosts` > `Proxy Hosts`&#x20;
 
-Setup your hosts similar to the picture below
+Setup your hosts similar to the example picture below
 
 <figure><img src="../.gitbook/assets/NGINX-Setup-Example.png" alt=""><figcaption></figcaption></figure>
+
+The `Destination` section in the above picture may differ. Please run `docker ps` to verify container names. These names could be similar to the above or something like:\
+lazy-resume-app-1
+
+```
+lazy-resume-postgres-1
+lazy-resume-minio-1
+lazy-resume-chrome-1
+lazy-resume-nginx-1
+```
 
 **YOU ARE RESPONSIBLE FOR KNOWING HOW TO SETUP SSL, AND DNS RECORDS FOR YOUR DOMAIN!**
 
