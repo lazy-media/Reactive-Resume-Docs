@@ -66,6 +66,7 @@ nano docker-install.sh
 
 > Copy the following script into the empty file
 
+{% code expandable="true" %}
 ```bash
 #!/bin/bash
 
@@ -519,6 +520,21 @@ do
     *) echo "Invalid selection, please try again..." ;;
   esac
 done
+```
+{% endcode %}
+
+Save the file and exit with `CTRL + O` and then `Y` then `Enter`
+
+## Change Permissions and Ownership
+
+```
+chmod +x docker-install.sh
+```
+
+Run the Install Script
+
+```
+./docker-install.sh
 ```
 {% endtab %}
 {% endtabs %}
