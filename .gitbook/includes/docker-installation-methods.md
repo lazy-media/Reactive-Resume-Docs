@@ -523,7 +523,7 @@ done
 ```
 {% endcode %}
 
-Save the file and exit with `CTRL + O` and then `Y` then `Enter`
+Save the file and exit with `CTRL + X` and then `Y` then `Enter`
 
 ## Change Permissions and Ownership
 
