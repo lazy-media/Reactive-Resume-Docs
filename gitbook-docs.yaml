@@ -1,0 +1,276 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Reactive Resume Docs
+  structure:
+    - type: section
+      key: section-1
+      title: Reactive Resume Docs
+      path: reactive-resume-docs
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: English
+          path: docs
+          default: true
+          content:
+            directory: ./
+        - type: space
+          key: space-9
+          title: عَرَبِيّ (Arabic)
+          path: arabic
+          content:
+            directory: ./reactive-resume-docs/arabic
+            language: ar
+        - type: space
+          key: space-33
+          title: Български (Bulgarian)
+          path: bulgarian
+          content:
+            directory: ./reactive-resume-docs/bulgarian
+            language: bg
+        - type: space
+          key: space-12
+          title: 廣東話 (Cantonese)
+          path: cantonese
+          content:
+            directory: ./reactive-resume-docs/cantonese
+            language: yue
+        - type: space
+          key: space-11
+          title: 中文 (Chinese)
+          path: chinese
+          content:
+            directory: ./reactive-resume-docs/chinese
+            language: zh
+        - type: space
+          key: space-34
+          title: Hrvatski (Croatian)
+          path: croatian
+          content:
+            directory: ./reactive-resume-docs/croatian
+            language: hr
+        - type: space
+          key: space-23
+          title: Čeština (Czech)
+          path: czech
+          content:
+            directory: ./reactive-resume-docs/czech
+            language: cs
+        - type: space
+          key: space-20
+          title: Dansk (Danish)
+          path: danish
+          content:
+            directory: ./reactive-resume-docs/danish
+            language: da
+        - type: space
+          key: space-8
+          title: Deutsch (German)
+          path: german
+          content:
+            directory: ./reactive-resume-docs/german
+            language: de
+        - type: space
+          key: space-15
+          title: Nederlands (Dutch)
+          path: dutch
+          content:
+            directory: ./reactive-resume-docs/dutch
+            language: nl
+        - type: space
+          key: space-37
+          title: Eesti (Estonian)
+          path: estonian
+          content:
+            directory: ./reactive-resume-docs/estonian
+            language: et
+        - type: space
+          key: space-21
+          title: Suomi (Finnish)
+          path: finnish
+          content:
+            directory: ./reactive-resume-docs/finnish
+            language: fi
+        - type: space
+          key: space-3
+          title: Français (French)
+          path: french
+          content:
+            directory: ./reactive-resume-docs/french
+            language: fr
+        - type: space
+          key: space-22
+          title: Ελληνικά (Greek)
+          path: greek
+          content:
+            directory: ./reactive-resume-docs/greek
+            language: el
+        - type: space
+          key: space-30
+          title: עברית (Hebrew)
+          path: hebrew
+          content:
+            directory: ./reactive-resume-docs/hebrew
+            language: he
+        - type: space
+          key: space-14
+          title: हिन्दी (Hindi)
+          path: hindi
+          content:
+            directory: ./reactive-resume-docs/hindi
+            language: hi
+        - type: space
+          key: space-24
+          title: Magyar (Hungarian)
+          path: hungarian
+          content:
+            directory: ./reactive-resume-docs/hungarian
+            language: hu
+        - type: space
+          key: space-28
+          title: Bahasa Indonesia (Indonesian)
+          path: indonesian
+          content:
+            directory: ./reactive-resume-docs/indonesian
+            language: id
+        - type: space
+          key: space-4
+          title: Italiano (Italian)
+          path: italian
+          content:
+            directory: ./reactive-resume-docs/italian
+            language: it
+        - type: space
+          key: space-10
+          title: 日本語 (Japanese)
+          path: japanese
+          content:
+            directory: ./reactive-resume-docs/japanese
+            language: ja
+        - type: space
+          key: space-13
+          title: 한국어 (Korean)
+          path: korean
+          content:
+            directory: ./reactive-resume-docs/korean
+            language: ko
+        - type: space
+          key: space-36
+          title: Latviešu (Latvian)
+          path: latvian
+          content:
+            directory: ./reactive-resume-docs/latvian
+            language: lv
+        - type: space
+          key: space-35
+          title: Lietuvių (Lithuanian)
+          path: lithuanian
+          content:
+            directory: ./reactive-resume-docs/lithuanian
+            language: lt
+        - type: space
+          key: space-29
+          title: Bahasa Melayu (Malay)
+          path: malay
+          content:
+            directory: ./reactive-resume-docs/malay
+            language: ms
+        - type: space
+          key: space-19
+          title: Norsk (Norwegian)
+          path: norwegian
+          content:
+            directory: ./reactive-resume-docs/norwegian
+            language: "no"
+        - type: space
+          key: space-16
+          title: Polski (Polish)
+          path: polish
+          content:
+            directory: ./reactive-resume-docs/polish
+            language: pl
+        - type: space
+          key: space-5
+          title: Português (Portuguese)
+          path: portuguese
+          content:
+            directory: ./reactive-resume-docs/portuguese
+            language: pt
+        - type: space
+          key: space-6
+          title: Português Brasileiro (Brazillian Portuguese)
+          path: brazilian-portuguese
+          content:
+            directory: ./reactive-resume-docs/brazilian-portuguese
+            language: pt-br
+        - type: space
+          key: space-25
+          title: Română (Romanian)
+          path: romanian
+          content:
+            directory: ./reactive-resume-docs/romanian
+            language: ro
+        - type: space
+          key: space-7
+          title: Русский (Russian)
+          path: russian
+          content:
+            directory: ./reactive-resume-docs/russian
+            language: ru
+        - type: space
+          key: space-32
+          title: Slovenčina (Slovak)
+          path: slovak
+          content:
+            directory: ./reactive-resume-docs/slovak
+            language: sk
+        - type: space
+          key: space-38
+          title: Slovenščina (Slovenian)
+          path: slovenian
+          content:
+            directory: ./reactive-resume-docs/slovenian
+            language: sl
+        - type: space
+          key: space-2
+          title: Español (Spanish)
+          path: spanish
+          content:
+            directory: ./reactive-resume-docs/spanish
+            language: es
+        - type: space
+          key: space-18
+          title: Svenska (Swedish)
+          path: swedish
+          content:
+            directory: ./reactive-resume-docs/swedish
+            language: sv
+        - type: space
+          key: space-17
+          title: Türkçe (Turkish)
+          path: turkish
+          content:
+            directory: ./reactive-resume-docs/turkish
+            language: tr
+        - type: space
+          key: space-26
+          title: ไทย (Thai)
+          path: thai
+          content:
+            directory: ./reactive-resume-docs/thai
+            language: th
+        - type: space
+          key: space-31
+          title: Українська (Ukrainian)
+          path: ukrainian
+          content:
+            directory: ./reactive-resume-docs/ukrainian
+            language: uk
+        - type: space
+          key: space-27
+          title: Tiếng Việt (Vietnamese)
+          path: vietnamese
+          content:
+            directory: ./reactive-resume-docs/vietnamese
+            language: vi
