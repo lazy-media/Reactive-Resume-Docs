@@ -10,4 +10,4 @@ Reactive Resume, since its inception, has never implemented any sort of user tra
 
 I do, however, accept donations as a means of sustaining the development of the project, so if you feel like you'd want to extend your support and lend a hand, read more here:
 
-[**Contributing to Reactive Resume**](broken-reference)
+[**Contributing to Reactive Resume**](https://app.gitbook.com/s/7ikPxOwA5dG7rGhQmIXN/donations-and-sponsorships)

@@ -19,7 +19,7 @@ Firstly, create an account on OpenWebUI Self Hosted Instance of your choice, if 
 Head over to the [OpenWebUI](https://openwebui.com/) page and click on the **Get Open WebUI** button.
 
 Set this up and get it connected to your local Ollama Instance.\
-&#xNAN;_&#x49; will not be explaining this documentation here. You can do a Google Search on how to host Ollama and OpenWebUI._
+_&#x49; will not be explaining this documentation here. You can do a Google Search on how to host Ollama and OpenWebUI._
 
 Now Login to your newly created OpenWebUI Instance. You should be presented with a page that looks similar to the one below.
 
